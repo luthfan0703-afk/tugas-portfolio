@@ -1,0 +1,390 @@
+@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Syne:wght@400..800&display=swap");
+
+/* GLOBAL RESET */
+* {
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  background: fixed;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #a96cd7;
+  height: 140 0px;
+}
+
+/* HEADER */
+.header-nav {
+  background-image: url("./gaming-cat.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 40vh;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.icon-bar {
+  display: block;
+}
+
+.nav-dekstop a {
+  display: none;
+}
+
+.logo a {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+span {
+  color: orange;
+}
+
+/* HERO */
+.hero-text .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+}
+
+.button-grup {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.button-grup button {
+  padding: 19px 20px;
+  background-color: #46265c;
+  border: none;
+  border-radius: 15px;
+}
+
+.button-grup button a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-dekstop a:hover {
+  background-color: #a96cd7;
+  border-radius: 10px;
+}
+
+/* ABOUT HERO */
+#sec-hero {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  flex-direction: row;
+}
+
+.hero-about {
+  width: 100%;
+  height: 100%;
+  background-color: #32223d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  border-radius: 40px;
+  overflow: hidden;
+}
+
+.hero-about .hero-paragraf {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.hero-paragraf p {
+  padding: 10px;
+  color: white;
+}
+
+.hero-paragraf p:first-child {
+  font-size: 24px;
+  font-weight: bold;
+  color: #a96cd7;
+}
+
+/* HERO IMAGE */
+.hero-img {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-img img {
+  width: 200px;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.text-align {
+  text-align: center;
+  color: white;
+}
+
+.about-me .paragraf {
+  text-align: left;
+  line-height: 50px;
+  font-size: 18px;
+}
+
+.text-about {
+  color: white;
+  font-size: 18px;
+}
+
+/* SKILLS */
+#hero-skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+
+.pleaceholder {
+  width: 285px;
+  height: 374px;
+  background-color: #32223d;
+  border: 2px solid #32223d;
+  border-radius: 40px;
+  color: white;
+  line-height: 20px;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.pleaceholder p {
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.pleaceholder h4 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.pleaceholder img {
+  padding: 20px;
+}
+
+.owl-card {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  background-color: #32223d;
+}
+
+.owl-card h2 {
+  width: 80px;
+  height: 80px;
+  color: white;
+}
+
+.owl-carousel {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  color: white;
+}
+
+.owl-carousel .card-one {
+  width: 100%;
+  margin-right: 20px;
+  background-color: #32223d;
+  color: white;
+}
+
+/* CONTACT */
+.contact {
+  margin: 50px;
+}
+
+.input1 {
+  margin-top: 10px;
+}
+
+.input1 input {
+  padding: 5px;
+  background-color: white;
+  border: 0;
+  border-radius: 20px;
+}
+
+#contact-sec textarea {
+  margin: 10px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+
+.contact h3 {
+  color: white;
+}
+
+.button-input {
+  border: 1px solid white;
+  padding: 19px 50px;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+}
+
+#contact-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact {
+  width: 300px;
+  height: 500px;
+  border-radius: 20px;
+  background-color: #32223d;
+  text-align: left;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .input1{
+  text-align: center;
+  padding: 5px;
+}
+
+iframe {
+  width: 300px;
+  height: 400px;
+  border-radius: 20px;
+}
+
+.contact-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.input-grup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 10px;
+}
+
+.input-grup img{
+  width: 20px;
+  height: 20px;
+}
+
+/* MEDIA QUERY DEKSTOP */
+@media (min-width: 429px) {
+  .header-nav {
+    height: 100vh;
+    background-position: center;
+  }
+
+  .icon-bar {
+    display: none;
+  }
+
+  .header-nav .nav-bar {
+    padding: 50px;
+  }
+
+  .nav-dekstop a {
+    padding: 15px;
+  }
+
+  .nav-bar a {
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  .hero-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+
+  .hero-text h1 {
+    font-size: 96px;
+  }
+
+  .text-align {
+    width: 600px;
+    font-size: large;
+  }
+
+  .button-grup {
+    gap: 40px;
+  }
+
+  .text-about {
+    font-size: 24px;
+  }
+
+  #hero-skills {
+    flex-direction: row;
+  }
+
+  .pleaceholder {
+    width: 300px;
+    height: 450px;
+    margin-right: 20px;
+  }
+
+  .contact {
+    width: 800px;
+    height: 500px;
+    margin: 100px 225px 100px;
+    margin-bottom: 200px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: #32223d;
+    text-align: left;
+    color: white;
+  }
+
+  #contact-sec h3,
+  #contact-sec .input1 {
+    padding: 10px;
+  }
+
+  iframe {
+    width: 800px;
+    height: 500px;
+    border-radius: 20px;
+  }
+}
